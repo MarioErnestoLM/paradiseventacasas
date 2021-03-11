@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="productos.css">
+    <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ef259853b6.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="icon" href="icono.jpg">
+    <title>Servicios</title>
+</head>
+<body ondragstart="return false" onselectstart="return false" oncontextmenu="return false">
+    <div class="fondo">
+        <nav>
+            <ul class="nav__ul">
+                <li class="nav__ul-li"><i class="fab fa-product-hunt"></i><a href="index.html">Inicio</a></li>
+                <li class="nav__ul-li-inicio"><i class="fas fa-home"></i><a href="productos.html">Servicios</a></li>
+                <li class="nav__ul-li"><i class="fab fa-weixin"></i><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+            </ul>
+            <div class="contenedor">
+                <form action="#" id="form-buscar">
+                    <input type="text" placeholder="Buscar" class="buscar">
+                </form>
+                <button id="btn-buscar">Buscar</button>
+                <ul class="nav__ul2">
+                    <li class="nav__ul2-li"><a href="#"><i class="fas fa-search lupa"></i></a></li>
+                    <li class="nav__ul2-li"><a href="#"><i class="fas fa-user-circle perfil"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="contenedor__slider">
+        <div class="slider" id="slider">
+            <div class="slider__section">
+                <img src="slider1.jpg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="slider2.jpg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="slider3.jpg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="slider4.jpg" alt="" class="slider__img">
+            </div>
+        </div>
+    </div>
+    <h2 class="titulo-casas">CASAS EN VENTA</h2>
+    <div class="line"></div>
+    <div class="contenedor-productos">
+        <div class="producto">
+            <img src="p1.jpg" alt="">
+            <ul class="ul-propiedades">
+                <li><i class="fas fa-toilet"></i><b>4</b> Baños</li>
+                <li><i class="fas fa-person-booth"></i></i><b>5</b> Recamaras</li>
+                <li><i class="fas fa-building"></i><b>2</b> Pisos</li><br>
+                <li><i class="fas fa-dollar-sign"></i><b>6</b> Millones De Pesos</li>
+                <li><i class="fas fa-ruler-combined"></i><b>500</b> Metros Cuadrados</li>
+            </ul>
+            <p>
+                En venta bonita casa <b>moderna</b> en Avenida Palmas, hall de Tv, con cuatro baños, cuenta con cinco recamaras con vestidor
+                , dos plantas, con 500 metros cuadrados a solo un precio de 6 millones de pesos.
+            </p>
+            <button class="btn-masinfo" onclick="mostrarInfo()">Más informacón</button>
+            <button class="btn-contactar"><a href="mailto:marioernestoficial@gmail.com">Contactar Agente</a></button>
+        </div>
+        <div class="producto">
+            <img src="p2.jpg" alt="">
+            <ul class="ul-propiedades">
+                <li><i class="fas fa-toilet"></i><b>2</b> Baños</li>
+                <li><i class="fas fa-person-booth"></i></i><b>2</b> Recamaras</li>
+                <li><i class="fas fa-building"></i><b>1</b> Piso</li><br>
+                <li><i class="fas fa-dollar-sign"></i><b>1.5</b> Millon De Pesos</li>
+                <li><i class="fas fa-ruler-combined"></i><b>270</b> Metros Cuadrados</li>
+            </ul>
+            <p>
+                Venta de hermosa casa en colonia San Francisco, estilo muy agradable, cuenta con dos baños, con dos recamaras,
+                de una sola planta, de 270 metros cuadrados, a un solo precio de 1.5 millones de pesos.
+            </p>
+            <button class="btn-masinfo" onclick="mostrarInfo()">Más informacón</button>
+            <button class="btn-contactar"><a href="mailto:marioernestoficial@gmail.com">Contactar Agente</a></button>
+        </div>
+        <div class="producto">
+            <img src="p3.jpg" alt="">
+            <ul class="ul-propiedades">
+                <li><i class="fas fa-toilet"></i><b>5</b> Baños</li>
+                <li><i class="fas fa-person-booth"></i></i><b>6</b> Recamaras</li>
+                <li><i class="fas fa-building"></i><b>2</b> Pisos</li><br>
+                <li><i class="fas fa-dollar-sign"></i><b>5.2</b> Millones De Pesos</li>
+                <li><i class="fas fa-ruler-combined"></i><b>550</b> Metros Cuadrados</li>
+            </ul>
+            <p>
+                Casa en Residencial la Loma, con un estilo moderno, en una zona poniente de la ciudad, a tan solo 
+                5.2 Millones de Pesos. Cuenta con 5 baños, 6 recamaras, tiene un terreno de 550 metros cuadrados. 
+            </p>
+            <button class="btn-masinfo" onclick="mostrarInfo()">Más informacón</button>
+            <button class="btn-contactar"><a href="mailto:marioernestoficial@gmail.com">Contactar Agente</a></button>
+        </div>
+        <div class="producto">
+            <img src="p4.jpg" alt="">
+            <ul class="ul-propiedades">
+                <li><i class="fas fa-toilet"></i><b>3</b> Baños</li>
+                <li><i class="fas fa-person-booth"></i></i><b>4</b> Recamaras</li>
+                <li><i class="fas fa-building"></i><b>2</b> Pisos</li><br>
+                <li><i class="fas fa-dollar-sign"></i><b>2.5</b> Millones De Pesos</li>
+                <li><i class="fas fa-ruler-combined"></i><b>350</b> Metros Cuadrados</li>
+            </ul>
+            <p>
+                Bonita casa moderna, en Golf La Loma, en la zona poniente de la ciudad, cuenta con 350 Metros Cuadrados, 
+                tiene 3 baños, en planta bajaestudio, cuenta con 4 recamaras con closet, dos pisos, 
+                a tan solo 2.5 Millones De Pesos.
+            </p>
+            <button class="btn-masinfo" onclick="mostrarInfo()">Más informacón</button>
+            <button class="btn-contactar"><a href="mailto:marioernestoficial@gmail.com">Contactar Agente</a></button>
+        </div>
+        <div class="producto">
+            <img src="p5.jpg" alt="">
+            <h2 class="remate">REMATE</h2>
+            <ul class="ul-propiedades">
+                <li><i class="fas fa-toilet"></i><b>5</b> Baños</li>
+                <li><i class="fas fa-person-booth"></i></i><b>5</b> Recamaras</li>
+                <li><i class="fas fa-building"></i><b>1</b> Piso</li><br>
+                <li><i class="fas fa-dollar-sign"></i><b>5.2</b> Millones De Pesos</li>
+                <li><i class="fas fa-ruler-combined"></i><b>650</b> Metros Cuadrados</li>
+            </ul>
+            <p>
+                Muy hermosa casa de Campo, en medio del bosque, cuenta con cinco baños, cinco recamaras con closet, 
+                de un piso, terreno de 650 metros cuadrados, a tan solo 5.2 millones de pesos. Por ahora esta 
+                hermosa casa esta en REMATE en tan solo un mes.
+            </p>
+            <button class="btn-masinfo" onclick="mostrarInfo()">Más informacón</button>
+            <button class="btn-contactar"><a href="mailto:marioernestoficial@gmail.com">Contactar Agente</a></button>
+        </div>
+        <div class="producto">
+            <img src="p6.jpg" alt="">
+            <ul class="ul-propiedades">
+                <li><i class="fas fa-toilet"></i><b>3</b> Baños</li>
+                <li><i class="fas fa-person-booth"></i></i><b>4</b> Recamaras</li>
+                <li><i class="fas fa-building"></i><b>2</b> Pisos</li><br>
+                <li><i class="fas fa-dollar-sign"></i><b>3.5</b> Millones De Pesos</li>
+                <li><i class="fas fa-ruler-combined"></i><b>400</b> Metros Cuadrados</li>
+            </ul>
+            <p>
+                Hermosa casa de dos pisos, en zona muy residencial Pedregal, cocina integral, sala comedor, 
+                cuenta con tres baños, cuatro recamaras con closet y vestidor, dos pisos, cuarto de lavado, 
+                cuarto de servicio, un terreno de 400 metros cuadrados, a tan solo 3.5 millones de pesos
+            </p>
+            <button class="btn-masinfo" onclick="mostrarInfo()">Más informacón</button>
+            <button class="btn-contactar"><a href="mailto:marioernestoficial@gmail.com">Contactar Agente</a></button>
+        </div>
+        <div class="producto">
+            <img src="p7.jpg" alt="">
+            <ul class="ul-propiedades">
+                <li><i class="fas fa-toilet"></i><b>3</b> Baños</li>
+                <li><i class="fas fa-person-booth"></i></i><b>3</b> Recamaras</li>
+                <li><i class="fas fa-building"></i><b>2</b> Pisos</li><br>
+                <li><i class="fas fa-dollar-sign"></i><b>1.5</b> Millones De Pesos</li>
+                <li><i class="fas fa-ruler-combined"></i><b>300</b> Metros Cuadrados</li>
+            </ul>
+            <p>
+                Casa de dos pisos en nueva zona residencial, cuenta con tres baños, tres recamaras con vestidor, 
+                un cuarto de servicio con baño completo, sala comedor, dos pisos, tiene un terreno de 300 metros cuadrados, 
+                a tan solo un precio de 1.5 millones de pesos por apertura.
+            </p>
+            <button class="btn-masinfo" onclick="mostrarInfo()">Más informacón</button>
+            <button class="btn-contactar"><a href="mailto:marioernestoficial@gmail.com">Contactar Agente</a></button>
+        </div>
+        <div class="producto">
+            <img src="p8.jpg" alt="">
+            <ul class="ul-propiedades">
+                <li><i class="fas fa-toilet"></i><b>4</b> Baños</li>
+                <li><i class="fas fa-person-booth"></i></i><b>5</b> Recamaras</li>
+                <li><i class="fas fa-building"></i><b>3</b> Pisos</li><br>
+                <li><i class="fas fa-dollar-sign"></i><b>6.5</b> Millones De Pesos</li>
+                <li><i class="fas fa-ruler-combined"></i><b>680</b> Metros Cuadrados</li>
+            </ul>
+            <p>
+                Casa muy moderna con acabados de lujo, esta ubicada en Residencial La Loma, cuenta con cuatro baños, 
+                cinco recamaras, 2 recamaras de servicio con baño completo cada una, de tres pisos, a tan solo un preio de 
+                6.5 millones de pesos con 680 metros cuadrados.
+            </p>
+            <button class="btn-masinfo" onclick="mostrarInfo()">Más informacón</button>
+            <button class="btn-contactar"><a href="mailto:marioernestoficial@gmail.com">Contactar Agente</a></button>
+        </div>
+        <div class="producto">
+            <img src="p9.jpg" alt="">
+            <h2 class="remate">REMATE</h2>
+            <ul class="ul-propiedades">
+                <li><i class="fas fa-toilet"></i><b>2</b> Baños</li>
+                <li><i class="fas fa-person-booth"></i></i><b>3</b> Recamaras</li>
+                <li><i class="fas fa-building"></i><b>1</b> Piso</li><br>
+                <li><i class="fas fa-dollar-sign"></i><b>3.2</b> Millon De Pesos</li>
+                <li><i class="fas fa-ruler-combined"></i><b>450</b> Metros Cuadrados</li>
+            </ul>
+            <p>
+                Casa en Remate en una nueva zona residencial San Angel, sala comedor, cocina integral con barra y granito, 
+                tres baños, tres recamaras cada una con vestidor, de un piso, hall de tv, un terreon de 450 metros cuadrados.
+            </p>
+            <button class="btn-masinfo" onclick="mostrarInfo()">Más informacón</button>
+            <button class="btn-contactar"><a href="mailto:marioernestoficial@gmail.com">Contactar Agente</a></button>
+        </div>
+        <div class="producto">
+            <img src="p10.jpg" alt="">
+            <ul class="ul-propiedades">
+                <li><i class="fas fa-toilet"></i><b>7</b> Baños</li>
+                <li><i class="fas fa-person-booth"></i></i><b>9</b> Cuartos</li>
+                <li><i class="fas fa-building"></i><b>2</b> Pisos</li><br>
+                <li><i class="fas fa-dollar-sign"></i><b>20</b> Millones De Pesos</li>
+                <li><i class="fas fa-ruler-combined"></i><b>1200</b> Metros Cuadrados</li>
+            </ul>
+            <p>
+                Hermosa casa en zona rustica, con hermosa terraza y vista al lago, cuenta con siete baños completos con regadera, 
+                nueve cuartos completos con vestidor y closet, tres recamaras de servicio con baño completo, 
+                de 1200 metros cuadrados, a 20 millones de pesos.
+            </p>
+            <button class="btn-masinfo" onclick="mostrarInfo()">Más informacón</button>
+            <button class="btn-contactar"><a href="mailto:marioernestoficial@gmail.com">Contactar Agente</a></button>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="inffo">
+            <h2 class="titulo-paradise">PARADISE</h2>
+            <p>
+                Somos una empresa dedicada a la venta de casas mediante un entorno web.
+            </p>
+            <a href="#" class="iconos"><i class="fab fa-facebook-square"></i></a>
+            <a href="#" class="iconos"><i class="fas fa-envelope"></i></a>
+        </div>
+        <div class="inffo">
+            <h2 class="titulo-navegacion">NAVEGACIÓN</h2>
+            <ul class="ul__navegacion">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="#fondo2">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="inffo">
+            <h2 class="titulo-ubicacion">UBICACIÓN</h2>
+            <ul class="ul__ubicacion">
+                <li>Real de Pozos No. 130</li>
+                <li>Fracc. Minas del Real, C.P.78396</li>
+                <li>San Luis Potosí,S.L.P, México.</li>
+            </ul>
+        </div>
+        <div class="line"></div>
+        <h2 class="copy">© Copyright 2021 - Todos los derechos reservados</h2>
+    </div>
+    <script src="slider.js"></script>
+    <script src="productos.js"></script>
+</body>
+</html>
